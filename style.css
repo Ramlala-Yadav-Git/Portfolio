@@ -412,8 +412,14 @@ footer .text span a:hover{
   section .content{
     width: 85%;
   }
+  .home{
+    background: none;
+  }
 }
 @media (max-width: 1000px) {
+  .home{
+    background:none ;
+  }
   .about .about-details{
     justify-content: center;
     flex-direction: column;
@@ -437,10 +443,15 @@ footer .text span a:hover{
     height: 350px;
     width: 350px;
   }
+ .home{
+
+background: none; 
+ }
 }
 
 @media (max-width: 750px) {
-  nav .navbar{
+ 
+ nav .navbar{
     width: 90%;
   }
   nav .navbar .menu{
