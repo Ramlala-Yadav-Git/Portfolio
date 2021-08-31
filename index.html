@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title> Ramlala Portfolio | Web Developer </title>
+  <title> Ramlala's Portfolio | Web Developer </title>
   <link rel="stylesheet" href="style.css">
   <!-- Fontawesome CDN Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
@@ -19,7 +19,7 @@
   <!-- navgaition menu -->
   <nav>
     <div class="navbar">
-      <div class="logo"><a href="#">Portfolio.</a></div>
+      <div class="logo"><a href="#">Ramlala.</a></div>
       <ul class="menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -48,10 +48,10 @@
         <div class="text-one">Hello,</div>
         <div class="text-two">I'm Ramlala Yadav</div>
         <div class="text-three">Full Stack Web Developer</div>
-        <div class="text-four">From Singrauli, MP</div>
+        <div class="text-four">From Valsad, Gujrat</div>
       </div>
       <div class="button">
-        <button>Hire Me</button>
+        <!-- <button>Hire Me</button> -->
       </div>
     </div>
   </section>
@@ -85,7 +85,10 @@
 
           </p>
           <div class="button">
-            <button>Download CV</button>
+
+            <a class="resume" href="https://drive.google.com/file/d/1b74nHexCd6RhRdlWrHvIo2FvADxzRA0v/view?usp=sharing"
+              target="blank">Download CV</a>
+
           </div>
         </div>
       </div>
@@ -106,33 +109,46 @@
           </p>
           <div class="experience">
             <div class="num">4</div>
-            <div class="exp">Major Projects <br> Experience</div>
+            <div class="exp">Major Projects <br> Using these Technologies</div>
           </div>
         </div>
         <div class="boxes">
           <div class="box">
+            <div>
+              <i class="fab fa-html5 html iconSize"></i>
+            </div>
             <div class="topic">HTML</div>
-            <!-- <div class="per">90%</div> -->
           </div>
           <div class="box">
+            <div>
+              <i class="fab fa-css3-alt css iconSize"></i>
+            </div>
             <div class="topic">CSS</div>
-            <!-- <div class="per">80%</div> -->
           </div>
           <div class="box">
+            <div>
+              <i class="fab fa-js-square js iconSize"></i>
+            </div>
             <div class="topic">JavaScript</div>
-            <!-- <div class="per">70%</div> -->
           </div>
           <div class="box">
+            <div>
+              <i class="fab fa-react react iconSize"></i>
+            </div>
             <div class="topic">React</div>
-            <!-- <div class="per">60%</div> -->
           </div>
           <div class="box">
-            <div class="topic">React</div>
-            <!-- <div class="per">60%</div> -->
-          </div>
-          <div class="box">
+            <div class="redux">
+              <img width="50px" src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="redux">
+            </div>
             <div class="topic">Redux</div>
-            <!-- <div class="per">60%</div> -->
+          </div>
+
+          <div class="box">
+            <div>
+              <i class="fab fa-github-square git iconSize"></i>
+            </div>
+            <div class="topic">Github</div>
           </div>
         </div>
       </div>
@@ -145,28 +161,68 @@
       <div class="title"><span>My Projects</span></div>
       <div class="boxes">
         <div class="box">
-          <div class="icon">
-            <i class="fas fa-desktop"></i>
+          <div class="projImg">
+            <img src="Images/booking.png" alt="booking.com">
           </div>
           <div class="topic">Booking.com-clone</div>
           <p>
 
-            Booking.com is a Dutch start-up, that provides travel assistance to the users across the world.
+            Booking.com is a Dutch start-up, that provides travel assistance like booking of hotels, resorts, flights,
+            cars, and taxies etc. to the users across the world.
+
           </p>
+          <div class="staks">
+            <div class="ico">
+              <i class="fab fa-react react"></i>
+            </div>
+            <div class="ico">
+              <i class="fab fa-js-square js"></i>
+            </div>
+            <div class="ico">
+              <i class="fab fa-html5 html"></i>
+            </div>
+            <div class="ico">
+              <i class="fab fa-css3-alt css"></i>
+            </div>
+          </div>
+
+          <div class="projects">
+            <a class="projectView" href="https://github.com/Ramlala-Yadav-Git/Booking.com-clone" target="blank">View</a>
+          </div>
+
         </div>
         <div class="box">
-          <div class="icon">
-            <i class="fas fa-paint-brush"></i>
+          <div class="projImg">
+            <img src="Images/ketto.png" alt="booking.com">
           </div>
+
+
           <div class="topic">Ketto.com-clone</div>
           <p>
             Ketto is an Indian online crowdfunding platform, where any individual/organ across the
             country can raise funds for causes ranging from medical healthcare to disaster relief.
           </p>
+          <div class="staks">
+            <div class="ico">
+              <i class="fab fa-react react"></i>
+            </div>
+            <div class="ico">
+              <i class="fab fa-js-square js"></i>
+            </div>
+            <div class="ico">
+              <i class="fab fa-html5 html"></i>
+            </div>
+            <div class="ico">
+              <i class="fab fa-css3-alt css"></i>
+            </div>
+          </div>
+          <div class="projects">
+            <a class="projectView" href="https://github.com/Ramlala-Yadav-Git/ketto-clone" target="blank">View</a>
+          </div>
         </div>
         <div class="box">
-          <div class="icon">
-            <i class="fas fa-chart-line"></i>
+          <div class="projImg">
+            <img src="Images/interntheory.png" alt="booking.com">
           </div>
           <div class="topic">InternTheory.com-clone</div>
           <p>
@@ -175,50 +231,66 @@
             required
             posts.
           </p>
+          <div class="staks">
+            <div class="ico">
+              <i class="fab fa-js-square js"></i>
+            </div>
+            <div class="ico">
+              <i class="fab fa-html5 html"></i>
+            </div>
+            <div class="ico">
+              <i class="fab fa-css3-alt css"></i>
+            </div>
+          </div>
+          <div class="projects">
+
+            <a class="projectView" href="https://github.com/Somesh-Kumar-Yadav/Project-InternTheory-Clone"
+              target="blank">View</a>
+          </div>
         </div>
-        <!-- <div class="box">
-          <div class="icon">
-            <i class="fab fa-android"></i>
-          </div>
-          <div class="topic">Icon Design</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
-            eligendi?</p>
-        </div> -->
-        <!-- <div class="box">
-          <div class="icon">
-            <i class="fas fa-camera-retro"></i>
-          </div>
-          <div class="topic">Photography</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
-            eligendi?</p>
-        </div> -->
-        <!-- <div class="box">
-          <div class="icon">
-            <i class="fas fa-tablet-alt"></i>
-          </div>
-          <div class="topic">Apps Devlopment</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
-            eligendi?</p>
-        </div> -->
+
       </div>
     </div>
   </section>
 
   <!-- Contact Me section Start -->
-  <!-- <section class="contact" id="contact">
+  <section class="contact" id="contact">
     <div class="content">
       <div class="title"><span>Contact Me</span></div>
       <div class="text">
-        <div class="topic">Have Any Project?</div>
+        <div class="topic">
+          <a href="ramlalayadav1997@gmail.com" target="blank">
+            <i class="fas fa-envelope-open-text mail iconSize"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ramlala-yadav" target="blank">
+            <i class="fab fa-linkedin linkedin iconSize"></i>
+          </a>
+          <a href="https://twitter.com/ramlala_yadav" target="blank">
+            <i class="fab fa-twitter twitter iconSize"></i>
+          </a>
+          <a href="https://github.com/Ramlala-Yadav-Git" target="blank">
+            <i class="fab fa-github-square git iconSize"></i>
+          </a>
+          <a href="7024426233" target="blank">
+            <i class="fab fa-whatsapp-square whats iconSize"></i>
+          </a>
+        </div>
+        <p>
+          Call-me: 8839610384
+        </p>
+        <p>
+
+          Email: ramlalayadav1997@gmail.com
+        </p>
         <p>
 
         </p>
         <div class="button">
-          <button>Let's Chat</button>
+          <!-- <button>Let's Chat</button> -->
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- Footer Section Start -->
   <footer>

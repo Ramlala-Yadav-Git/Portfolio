@@ -172,6 +172,23 @@ nav.sticky .menu-btn{
   color: #4070f4;
 }
 
+ .resume{
+   outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #4070f4;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+ .resume:hover{
+  border-color: #4070f4;
+  background-color: #fff;
+  color: #4070f4;
+}
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
  I'm Selecting Directly 'Section Tag' and 'Class'  */
@@ -331,9 +348,82 @@ section .button button:hover{
   cursor: default;
   transition: all 0.4s ease;
 }
+.services .boxes .box .projImg img{
+width: 100%;
+height: 200px;
+border-radius: 10px;
+border: 1px solid rgba(70, 131, 180, 0.514);
+
+}
 .services .boxes .box:hover{
+  background: #001441ef;
+  color: #fff;
+}
+.staks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.staks .ico{
+  margin-right: 10px;
+  /* border: 1px solid #4070f4; */
+  border-radius: 50%;
+  padding: 2%;
+}
+.staks .ico i{
+font-size: 40px;
+}
+.react{
+  color: #61DAFB;
+}
+.html{
+  color:#FD7E14;
+}
+.css{
+color: #BE4BDB;
+}
+.js{
+  color: #EFD81D;
+}
+.git{
+  color: gray;
+}
+.whats{
+color: #56F074;
+}
+.linkedin{
+color: #0077B5;
+}
+.mail{
+color: #CF4A3D;
+}
+.twitter{
+color: #2d94d8;
+}
+.iconSize{
+  font-size: 50px;
+}
+.projects{
+  margin-top: 20px;
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+.projectView{
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 400;
   background: #4070f4;
   color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+.projectView:hover{
+  border-color: #4070f4;
+  background-color: #fff;
+  color: #4070f4;
 }
 .services .boxes .box .icon{
   height: 50px;
