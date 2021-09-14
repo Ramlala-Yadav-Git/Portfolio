@@ -125,7 +125,7 @@ nav.sticky .menu-btn{
   
 }
 .hello img{
-width: 2.005%;
+width: 25px;
 
 }
 .home .home-content{
@@ -415,13 +415,11 @@ color: #2d94d8;
 }
 .projects{
   margin-top: 20px;
- 
-  padding: 20px;
-  /* border: 1px solid black; */
+  padding: 1vw;
+  display: flex;
+  justify-content: space-evenly;
 }
-.projects > a{
-  margin: 10px;
-}
+
 .projectView{
   padding: 5px 8px;
   border-radius: 6px;
@@ -562,7 +560,7 @@ background: none;
     background: #4070F4;
     height: 100vh;
     max-width: 400px;
-    width: 100%;
+    width: 50%;
     padding-top: 60px;
     flex-direction: column;
     align-items: center;
