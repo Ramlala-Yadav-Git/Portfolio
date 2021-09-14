@@ -122,6 +122,11 @@ nav.sticky .menu-btn{
   font-family: 'Ubuntu', sans-serif;
   border-radius: 1%;
   image-resolution: initial;
+  
+}
+.hello img{
+width: 2.005%;
+
 }
 .home .home-content{
   width: 90%;
@@ -189,9 +194,7 @@ nav.sticky .menu-btn{
   background-color: #fff;
   color: #4070f4;
 }
-/* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
+
 section{
   padding-top: 40px;
 }
@@ -250,8 +253,13 @@ section  .topic{
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
-  /* border-bottom: 2px solid; */
-  /* width: 50%; */
+ 
+}
+.topic > a{
+  margin: 5px;
+}
+.topic > a >i {
+  font-size: 35px;
 }
 .about-details .right p{
   text-align: justify;
@@ -318,6 +326,7 @@ section .button button:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
 }
 .skills-details .box{
   width: calc(100% / 2 - 20px);
@@ -327,6 +336,7 @@ section .button button:hover{
   font-size: 20px;
   color: #4070f4;
 }
+
 .skills-details .boxes .per{
   font-size: 60px;
   color: #4070f4;
@@ -340,24 +350,24 @@ section .button button:hover{
 }
 .services .boxes .box{
   margin: 20px 0;
-  width: calc(100% / 3 - 20px);
+  width: calc(100% / 2 - 30px);
   text-align: center;
   border-radius: 12px;
-  padding: 30px 10px;
+  padding: 30px 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
 }
 .services .boxes .box .projImg img{
 width: 100%;
-height: 200px;
+height: 300px;
 border-radius: 10px;
 border: 1px solid rgba(70, 131, 180, 0.514);
 
 }
+
 .services .boxes .box:hover{
-  background: #001441ef;
-  color: #fff;
+  box-shadow: 1px 1px 2px 5px #86a2f09a;
 }
 .staks{
   display: flex;
@@ -367,7 +377,6 @@ border: 1px solid rgba(70, 131, 180, 0.514);
 }
 .staks .ico{
   margin-right: 10px;
-  /* border: 1px solid #4070f4; */
   border-radius: 50%;
   padding: 2%;
 }
@@ -406,8 +415,12 @@ color: #2d94d8;
 }
 .projects{
   margin-top: 20px;
+ 
   padding: 20px;
   /* border: 1px solid black; */
+}
+.projects > a{
+  margin: 10px;
 }
 .projectView{
   padding: 5px 8px;
@@ -446,10 +459,7 @@ color: #2d94d8;
   color: #0E2431;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
-  color: #fff;
-}
+
 /* Contact Me CSS */
 .contact{
   background: #F0F8FF;
@@ -537,6 +547,7 @@ footer .text span a:hover{
 
 background: none; 
  }
+
 }
 
 @media (max-width: 750px) {
