@@ -1,7 +1,7 @@
 // Sticky Navigation Menu JS Code
 let nav = document.querySelector("nav");
 let scrollBtn = document.querySelector(".scroll-button a");
-console.log(scrollBtn);
+// console.log(scrollBtn);
 let val;
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 20) {
