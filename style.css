@@ -196,7 +196,7 @@ width: 25px;
 }
 
 section{
-  padding-top: 40px;
+  padding-top: 30px;
 }
 section .content{
   width: 80%;
@@ -292,11 +292,12 @@ section .button button:hover{
  }
  .skills .content{
    padding: 40px 0;
+
  }
  .skills .skills-details{
-   display: flex;
-   justify-content: space-between;
+  
    align-items: center;
+
  }
  .skills-details .text{
    width: 50%;
@@ -322,15 +323,32 @@ section .button button:hover{
   margin: 0 6px;
 }
 .skills-details .boxes{
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
+
 }
 .skills-details .box{
-  width: calc(100% / 2 - 20px);
+  width: calc(100% / 3 - 20px);
   margin: 20px 0;
+}
+.skilltitle{
+  font-weight: 500;
+  color: #0E2431;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px;
+}
+.skilltitle > span{
+  background:#4070f4;
+  border: 2px solid #4070f4;
+  color: #4070f4;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 .skills-details .boxes .topic{
   font-size: 20px;
@@ -417,7 +435,8 @@ color: #2d94d8;
   margin-top: 20px;
   padding: 1vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+
 }
 
 .projectView{
@@ -430,6 +449,7 @@ color: #2d94d8;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
+  margin: 10px;
 }
 .projectView:hover{
   border-color: #4070f4;
@@ -535,7 +555,10 @@ footer .text span a:hover{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
+  
 }
+
+
 @media (max-width: 900px) {
   .about .left img{
     height: 350px;
@@ -618,6 +641,10 @@ background: none;
   .home .text-two{
     font-size: 55px;
   }
+.skills-details .box{
+  width: calc(100% / 2 - 20px);
+  margin: 20px 0;
+}
   .home .text-three{
     font-size: 33px;
   }
