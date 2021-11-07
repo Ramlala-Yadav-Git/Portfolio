@@ -79,9 +79,8 @@ nav.sticky .menu a:hover{
 }
 .navbar .media-icons a{
   color: #0839be;
-  /* color:rgba(59, 57, 57, 0.514); */
   font-size: 18px;
-  margin: 0 6px;
+  margin: 0 0.1rem;
 
 }
 nav.sticky .media-icons a{
@@ -400,6 +399,7 @@ border: 1px solid rgba(70, 131, 180, 0.514);
   align-items: center;
   justify-content: center;
   margin-top: 5%;
+  flex-wrap: wrap;
 }
 .staks .ico{
   margin-right: 10px;
